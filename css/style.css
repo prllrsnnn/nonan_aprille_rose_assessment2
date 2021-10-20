@@ -89,9 +89,11 @@ color:#fff;
 }
 
 #navbar ul {
+color:#fff;
 }
 
 #navbar ul li a {
+
 }
 
 #navbar ul li a:hover {
@@ -99,7 +101,7 @@ color:#fff;
 
 /* Showcase */
 #showcase {
-background: url(../image/main-background.jpg)no-repeat center center/cover;
+background: url(./image/main-background.jpg)no-repeat center center/cover;
 height: 700px;
 }
 
@@ -124,6 +126,8 @@ height: 700px;
 }
 
 #who .who-img {
+height:100px;
+width:100px;
 }
 
 /* Section: Clients */
@@ -131,6 +135,6 @@ height: 700px;
 }
 
 #clients .items img {
-height:200px;
-width:200px;
+height:100px;
+width:100px;
 }
