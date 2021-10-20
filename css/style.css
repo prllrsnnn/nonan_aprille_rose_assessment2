@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* global config */
+* {
+}
+/* global styling */
+body {
+}
+
+a {
+}
+
+p {
+}
+
+/* Utility Classes */
+.container {
+}
+
+.text-center {
+}
+
+.text-primary {
+}
+
+.bg-light {
+}
+
+.bg-dark {
+}
+
+.bg-primary {
+}
+
+.l-heading {
+}
+
+.m-heading {
+}
+
+.lead {
+}
+
+.py-1 {
+}
+.py-2 {
+}
+.py-3 {
+}
+
+.p-1 {
+}
+.p-2 {
+}
+.p-3 {
+}
+
+.btn {
+}
+
+.btn:hover {
+}
+
+.btn-dark {
+}
+
+.list {
+}
+
+.list li {
+}
+
+/* Navbar */
+#navbar {
+}
+
+#navbar ul {
+}
+
+#navbar ul li a {
+}
+
+#navbar ul li a:hover {
+}
+
+/* Showcase */
+#showcase {
+}
+
+#showcase .showcase-content {
+}
+
+/* Section: What We Do */
+#what .items {
+}
+
+#what .items .item {
+}
+
+#what .items .item i {
+}
+
+/* Section: Who We Are */
+#who {
+}
+
+#who div {
+}
+
+#who .who-img {
+}
+
+/* Section: Clients */
+#clients .items {
+}
+
+#clients .items img {
+}
