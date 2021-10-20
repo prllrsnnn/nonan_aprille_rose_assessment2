@@ -2,12 +2,18 @@
 
 /* global config */
 * {
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 /* global styling */
 body {
+font-family:'Roboto', sans-serif;
+line-height; 1.5rem;
 }
 
 a {
+text-decoration:none;
 }
 
 p {
