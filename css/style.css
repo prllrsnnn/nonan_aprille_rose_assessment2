@@ -2,23 +2,23 @@
 
 /* global config */
 * {
-margin:0;
-padding:0;
-box-sizing:border-box;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 /* global styling */
-body {
-font-family:'Roboto', sans-serif;
-line-height; 1.5rem;
+  body {
+  font-family:'Roboto', sans-serif;
+  line-height; 1.5rem;
 }
 
 a {
-text-decoration:none;
-color:#fff;
+  text-decoration:none;
+  color:#fff;
 }
 
 p {
-color:#fff;
+  color:#fff;
 }
 
 /* Utility Classes */
@@ -29,7 +29,7 @@ color:#fff;
 }
 
 .text-primary {
-color:#77D970;
+  color:#77D970;
 }
 
 .bg-light {
@@ -65,9 +65,9 @@ color:#77D970;
 }
 
 .btn {
-background-color: #77D970;
-padding:10px;
-border-radius: 10px;
+  background-color: #77D970;
+  padding:10px;
+  border-radius: 10px;
 }
 
 .btn:hover {
@@ -84,12 +84,12 @@ border-radius: 10px;
 
 /* Navbar */
 #navbar {
-background-color:#000000;
-color:#fff;
+  background-color:#000000;
+  color:#fff;
 }
 
 #navbar ul {
-color:#fff;
+  color:#fff;
 }
 
 #navbar ul li a {
@@ -101,8 +101,8 @@ color:#fff;
 
 /* Showcase */
 #showcase {
-background: url(./image/main-background.jpg)no-repeat center center/cover;
-height: 700px;
+  background: url(./image/main-background.jpg)no-repeat center center/cover;
+  height: 700px;
 }
 
 #showcase .showcase-content {
