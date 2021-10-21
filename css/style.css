@@ -13,13 +13,13 @@ body {
   height: 100vh;
 }
 
-/* a {
+a {
   color: #fff;
   text-decoration: none;
-} */
+}
 
 p {
-  color: #000000;
+  color: #746c6c;
 }
 
 /* Utility Classes */
@@ -28,27 +28,27 @@ p {
 }
 
 .text-center {
-  text-align: center;
   margin: 20px 0;
   font-size: 35px;
   padding-top: 10px;
 }
 
-/*.text-primary {
+.text-primary {
   color: rgba(119, 217, 112, 1);
   padding: 20px;
-}*/
+}
 
 .bg-light {
   display: flex;
   flex-direction: row;
-  text-align: center;
 }
 
 .bg-dark {
 }
 
 .bg-primary {
+  background: #fff;
+  overflow: hidden;
 }
 
 .l-heading {
@@ -69,6 +69,7 @@ padding: 10px;
 
 .py-1 {
   font-size: 1rem;
+  text-align: center;
 }
 .py-2 {
 }
@@ -78,6 +79,11 @@ padding: 10px;
 .p-1 {
 }
 .p-2 {
+  padding: 10px;
+  padding-left: 8rem;
+  display: flex;
+  line-height: 1.5rem;
+
 }
 .p-3 {
 }
@@ -101,11 +107,17 @@ padding: 10px;
 
 .list {
   list-style: none;
+  line-height: 1.5rem;
+  padding: 20px;
 }
 
 .list li {
   display: flow-root;
+  flex-direction: right;
   border-bottom: double;
+  line-height: 2rem;
+  text-align: start;
+  z-index: 2;
 }
 
 /* Navbar */
@@ -121,6 +133,7 @@ padding: 10px;
 }
 #navbar .logo {
   margin: 20px 15px;
+  padding: 10px;
 }
 
 #navbar ul {
@@ -143,7 +156,7 @@ padding: 10px;
 
 /* Showcase */
 #showcase {
-  background: url(../img/main-background.jpg)no-repeat center center/cover;
+  background: url(img/main-background.jpg)no-repeat center center/cover;
   height: 90vh;
   text-align: center;
   color: #fff;
@@ -167,11 +180,13 @@ padding: 10px;
 /* Section: What We Do */
 #what {
   background-color: #E9F6F5;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding: 0 150px;
 }
 #what .items {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-size: 1rem;
   margin: auto;
   padding-bottom: 40px;
@@ -182,7 +197,7 @@ padding: 10px;
 }
 
 #what .items .item .nonan {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 #what .items .item i {
@@ -196,6 +211,10 @@ padding: 10px;
 
 /* Section: Who We Are */
 #who {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  padding-top: 20px;
 }
 
 #who div {
@@ -205,16 +224,14 @@ padding: 10px;
 }
 
 #who .who-img {
-  height: 650px;
-  width: 650px;
+  height: 500px;
+  width: 500px;
 }
 
 /* Section: Clients */
 #clients .items {
   display: flex;
   justify-content: space-evenly;
-
-
 }
 
 #clients .items img {
