@@ -41,6 +41,7 @@ p {
 .bg-light {
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
 
 .bg-dark {
